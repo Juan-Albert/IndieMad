@@ -9,21 +9,15 @@ public class TeamChooser : MonoBehaviour
 {
     public Text timer;
     public GameObject[] players;
-    
-    private bool timeUp = false;
 
     private void Awake()
     {
         for(int i = 0; i < players.Length; i++)
         {
+            GameManager.instance.playersTeam[i] = Team.None;
             players[i].SetActive(GameManager.instance.playing[i]);
-            
         }
-    }
-
-    private void Update()
-    {
-        
+        StartCoroutine(Timer());
     }
 
     IEnumerator Timer()
@@ -36,7 +30,7 @@ public class TeamChooser : MonoBehaviour
             yield return new WaitForSeconds(1f);
             time--;
         }
+        GameManager.instance.NextBattle();
         
-        timeUp = true;
     }
 }

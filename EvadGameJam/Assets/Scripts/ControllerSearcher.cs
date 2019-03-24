@@ -7,39 +7,20 @@ public class ControllerSearcher : MonoBehaviour
     public GameObject[] players;
     public GameObject startText;
 
-    private bool[] playing = new bool[4];
-    
+    private List<bool> playing;
+
+    private void Awake()
+    {
+        playing = new List<bool>();
+
+        for(int i = 0; i < 4; i++)
+        {
+            playing.Add(false);
+        }
+    }
+
     void Update()
     {
-        foreach (KeyCode vKey in System.Enum.GetValues(typeof(KeyCode)))
-        {
-            if (Input.GetKeyDown(vKey))
-            {
-                Debug.Log(vKey);
-
-            }
-        }
-
-        float h = Input.GetAxis("HorizontalP1");
-        float v = Input.GetAxis("VerticalP1");
-        Debug.Log("Player 1: " + h + " " + v);
-
-        h = Input.GetAxis("HorizontalP2");
-        v = Input.GetAxis("VerticalP2");
-        Debug.Log("Player 2: " + h + " " + v);
-
-        h = Input.GetAxis("HorizontalP3");
-        v = Input.GetAxis("VerticalP3");
-        Debug.Log("Player 3: " + h + " " + v);
-
-        bool action = Input.GetKeyDown(KeyCode.Joystick1Button1);
-        Debug.Log("Player 1: " + action);
-
-        action = Input.GetKeyDown(KeyCode.Joystick2Button1);
-        Debug.Log("Player 2: " + action);
-
-        action = Input.GetKeyDown(KeyCode.Joystick3Button1);
-        Debug.Log("Player 3: " + action);
 
         if(Input.GetKeyDown(KeyCode.Joystick1Button1))
         {
@@ -82,7 +63,7 @@ public class ControllerSearcher : MonoBehaviour
             {
                 GameManager.instance.playing = playing;
                 GameManager.instance.playersCount = activePlayers;
-                GameManager.instance.CompleteLevel();
+                GameManager.instance.StartGame();
             }
         }
         else
