@@ -63,7 +63,7 @@ public class ControllerSearcher : MonoBehaviour
             {
                 GameManager.instance.playing = playing;
                 GameManager.instance.playersCount = activePlayers;
-                GameManager.instance.StartGame();
+                GameManager.instance.ChangeTeams();
             }
         }
         else

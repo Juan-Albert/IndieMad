@@ -4,52 +4,66 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("Movement Settings")]
     public float speed;
     public bool onlyHorizontalMove;
     public bool canDash;
     public float dashSpeed;
     public float startDashTime;
     public float startDashDuration;
-
-    public PlayerInfo playerInfo;
+    public bool stunned = false;
+    public float startStunDuration;
 
     public string hAxis;
     public string vAxis;
+
+    [Header("Clothing Settings")]
+    public Sprite redSuit;
+    public Sprite blueSuit;
+    public Sprite graySuit;
+    public SpriteRenderer body;
+
+    [Header("Player Settings")]
+    public PlayerInfo playerInfo;
+    public KeyCode actionButton;
 
     private bool dashing = false;
     private bool tryDashing = false;
     private float dashTime;
     private float dashDuration;
+    private float stunDuration;
 
 
     private Rigidbody2D myRB;
+    private Animator myAnim;
     private Vector2 moveVelocity;
 
     private void Start()
     {
         myRB = GetComponent<Rigidbody2D>();
+        myAnim = GetComponent<Animator>();
+        stunDuration = startStunDuration;
         dashTime = startDashTime;
         dashDuration = startDashDuration;
     }
 
     private void Update()
     {
-        CheckInputs();
-
-        if ((Input.GetKeyDown(KeyCode.Joystick1Button1) || Input.GetKeyDown(KeyCode.Joystick2Button1)
-                    || Input.GetKeyDown(KeyCode.Joystick3Button1) || Input.GetKeyDown(KeyCode.Joystick4Button1)) && moveVelocity != Vector2.zero)
+        if (stunned) ResolveStun();
+        else
         {
-            tryDashing = true;
-        }
-        Dash();
+            CheckInputs();
 
+            if (Input.GetKeyDown(actionButton) && moveVelocity != Vector2.zero) tryDashing = true;
+
+            Dash();
+        }
     }
 
     private void FixedUpdate()
     {
-        myRB.MovePosition(myRB.position + moveVelocity * Time.fixedDeltaTime);
-
         if (dashing) myRB.MovePosition(myRB.position + moveVelocity * dashSpeed * Time.fixedDeltaTime);
+        else myRB.MovePosition(myRB.position + moveVelocity * Time.fixedDeltaTime);
     }
 
     void CheckInputs()
@@ -68,7 +82,7 @@ public class PlayerMovement : MonoBehaviour
         if(canDash)
         {
             dashTime -= Time.deltaTime;
-            if (dashTime <= 0 && tryDashing)
+            if (dashTime <= 0 && tryDashing && !stunned)
             {
                 if (dashDuration <= 0)
                 {
@@ -86,33 +100,33 @@ public class PlayerMovement : MonoBehaviour
             else
             {
                 tryDashing = false;
+                dashing = false;
             }
+        }
+    }
+
+    void ResolveStun()
+    {
+        moveVelocity = Vector2.zero;
+        stunDuration -= Time.deltaTime;
+        if (stunDuration <= 0)
+        {
+            stunned = false;
+            stunDuration = startStunDuration;
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("RedZone"))
+        
+
+        if(collision.gameObject.CompareTag("Player") && dashing)
         {
-            GameManager.instance.playersTeam[playerInfo.id] = Team.Red;
-        }
-        else if (collision.gameObject.CompareTag("BlueZone"))
-        {
-            GameManager.instance.playersTeam[playerInfo.id] = Team.Blue;
+            collision.gameObject.GetComponent<PlayerMovement>().stunned = true;
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("RedZone"))
-        {
-            if (GameManager.instance.playersTeam[playerInfo.id] == Team.Red) GameManager.instance.playersTeam[playerInfo.id] = Team.None;
-        }
-        else if (collision.gameObject.CompareTag("BlueZone"))
-        {
-            if (GameManager.instance.playersTeam[playerInfo.id] == Team.Blue) GameManager.instance.playersTeam[playerInfo.id] = Team.None;
-        }
-    }
+    
 
    
 

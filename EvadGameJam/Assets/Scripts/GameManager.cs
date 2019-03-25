@@ -9,7 +9,6 @@ public class GameManager : MonoBehaviour
     public int playersCount;
     public List<Team> playersTeam;
     public List<int> levels;
-    public int teamLevel;
 
     public int teamRedPuntuation = 0;
     public int teamBluePuntuation = 0;
@@ -25,28 +24,20 @@ public class GameManager : MonoBehaviour
 
         DontDestroyOnLoad(this.gameObject);
 
-        playing = new List<bool>();
-        playersTeam = new List<Team>();
-        for(int i = 0; i < 4; i++)
-        {
-            playing.Add(false);
-            playersTeam.Add(Team.None);
-        }
+        InstanciateGame();
     }
 
-    public void RestartLevel()
+    public void ResetGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
-
-    public void StartGame()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        teamBluePuntuation = 0;
+        teamRedPuntuation = 0;
+        InstanciateGame();
+        SceneManager.LoadScene("SelectController");
     }
 
     public void ChangeTeams()
     {
-        SceneManager.LoadScene(teamLevel);
+        SceneManager.LoadScene("Team Chooser");
     }
 
     public void NextBattle()
@@ -62,11 +53,25 @@ public class GameManager : MonoBehaviour
         //Aqui jefe final
     }
 
+    private void InstanciateGame()
+    {
+        playing.Clear();
+        playersTeam.Clear();
+
+        playing = new List<bool>();
+        playersTeam = new List<Team>();
+        for (int i = 0; i < 4; i++)
+        {
+            playing.Add(false);
+            playersTeam.Add(Team.None);
+        }
+    }
+
     private void SelectLevels()
     {
         tempLevels.Clear();
         var levelsToSelect = levels;
-        for(int i = 0; i < 5; i++)
+        for(int i = 0; i < 0; i++)
         {
             var rand = Random.Range(0, levelsToSelect.Count - 1);
             tempLevels.Add(levelsToSelect[rand]);

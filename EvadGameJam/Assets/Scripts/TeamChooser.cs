@@ -23,14 +23,20 @@ public class TeamChooser : MonoBehaviour
     IEnumerator Timer()
     {
         int time = 10;
+        timer.text = time.ToString();
 
-        while(time > 0)
+        while (time > 0)
         {
-            timer.text = time.ToString();
             yield return new WaitForSeconds(1f);
             time--;
+            timer.text = time.ToString();
         }
-        GameManager.instance.NextBattle();
+
+        for (int i = 0; i < players.Length; i++)
+        {
+           if(players[i].activeInHierarchy) GameManager.instance.playersTeam[i] = players[i].GetComponent<PlayerMovement>().playerInfo.team;
+        }
+        //GameManager.instance.NextBattle();
         
     }
 }
