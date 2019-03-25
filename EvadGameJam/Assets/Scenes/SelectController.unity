@@ -432,6 +432,8 @@ MonoBehaviour:
   playing: 
   playersCount: 0
   playersTeam: 
+  levels: 
+  teamLevel: 0
   teamRedPuntuation: 0
   teamBluePuntuation: 0
 --- !u!4 &1461513043

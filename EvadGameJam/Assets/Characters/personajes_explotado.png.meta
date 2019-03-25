@@ -1,0 +1,383 @@
+fileFormatVersion: 2
+guid: 734868393504ada41872f20a669cc6f2
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: personajes_explotado_0
+    21300002: personajes_explotado_1
+    21300004: personajes_explotado_2
+    21300006: personajes_explotado_3
+    21300008: personajes_explotado_4
+    21300010: personajes_explotado_5
+    21300012: personajes_explotado_6
+    21300014: personajes_explotado_7
+    21300016: personajes_explotado_8
+    21300018: personajes_explotado_9
+    21300020: personajes_explotado_10
+    21300022: personajes_explotado_11
+    21300024: personajes_explotado_12
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: personajes_explotado_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 175
+        width: 106
+        height: 60
+      alignment: 9
+      pivot: {x: 0.4716981, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a11da661a6c4e4291d53d9da856b54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajes_explotado_1
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 165
+        width: 108
+        height: 70
+      alignment: 9
+      pivot: {x: 0.49074075, y: 0.55714285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad14de5789521c4fa31630e5a33feea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajes_explotado_2
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 164
+        width: 130
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c8408b155f7df4d85558b027dfabcb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajes_explotado_3
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 163
+        width: 137
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850cba1063918374d804a07d447fd54a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajes_explotado_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 35
+        width: 192
+        height: 130
+      alignment: 9
+      pivot: {x: 0.48177084, y: 0.48076922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f85187a861ab6943a412bd0713ef86d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajes_explotado_5
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 35
+        width: 161
+        height: 130
+      alignment: 9
+      pivot: {x: 0.49689442, y: 0.4846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ea996ecd87ac5428a2e073244eb7a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajes_explotado_6
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 36
+        width: 174
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecfdbc73c735e984599786642483f1ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajes_explotado_7
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 40
+        width: 177
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822d6e7a1f1fca446a99233a666f03f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajes_explotado_8
+      rect:
+        serializedVersion: 2
+        x: 804.51324
+        y: 124.99997
+        width: 99.486755
+        height: 110.84407
+      alignment: 9
+      pivot: {x: 0.50244635, y: 0.51874703}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357feead6408086469aed600e6bedaca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajes_explotado_9
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 127
+        width: 94
+        height: 110
+      alignment: 9
+      pivot: {x: 0.49999997, y: 0.51363635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b01ae1c2b649a48a9c5a9c33040d7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajes_explotado_10
+      rect:
+        serializedVersion: 2
+        x: 835.84393
+        y: 36
+        width: 43.156067
+        height: 81.999985
+      alignment: 9
+      pivot: {x: 0.48449162, y: 0.7358076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8dae9d41abdadd4b86e38ef41c741a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajes_explotado_11
+      rect:
+        serializedVersion: 2
+        x: 889.99976
+        y: 35
+        width: 42.73407
+        height: 80.57795
+      alignment: 9
+      pivot: {x: 0.5239354, y: 0.7445229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c664eb527350d541a00615674b77e5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personajes_explotado_12
+      rect:
+        serializedVersion: 2
+        x: 942.99994
+        y: 36
+        width: 37.42206
+        height: 62.999992
+      alignment: 9
+      pivot: {x: 0.527333, y: 0.69427574}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815125fc9e0bded4eabcf666049d1cb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fcd74ef9db58f55498d7424872daaa4d
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 636889573328137255
+  assetBundleName: 
+  assetBundleVariant: 
