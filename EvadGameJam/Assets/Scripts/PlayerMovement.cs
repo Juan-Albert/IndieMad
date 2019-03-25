@@ -11,13 +11,15 @@ public class PlayerMovement : MonoBehaviour
     public float dashSpeed;
     public float startDashTime;
     public float startDashDuration;
-    public bool stunned = false;
     public float startStunDuration;
 
     public string hAxis;
     public string vAxis;
 
     [Header("Clothing Settings")]
+    public Sprite stunFace;
+    public Sprite normalFace;
+    public SpriteRenderer face;
     public Sprite redSuit;
     public Sprite blueSuit;
     public Sprite graySuit;
@@ -26,6 +28,13 @@ public class PlayerMovement : MonoBehaviour
     [Header("Player Settings")]
     public PlayerInfo playerInfo;
     public KeyCode actionButton;
+    public Animator myAnim;
+
+    [HideInInspector]
+    public bool falling = false;
+    [HideInInspector]
+    public bool stunned = false;
+
 
     private bool dashing = false;
     private bool tryDashing = false;
@@ -35,13 +44,11 @@ public class PlayerMovement : MonoBehaviour
 
 
     private Rigidbody2D myRB;
-    private Animator myAnim;
     private Vector2 moveVelocity;
 
     private void Start()
     {
         myRB = GetComponent<Rigidbody2D>();
-        myAnim = GetComponent<Animator>();
         stunDuration = startStunDuration;
         dashTime = startDashTime;
         dashDuration = startDashDuration;
@@ -49,15 +56,30 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if (stunned) ResolveStun();
+        if(falling)
+        {
+            ResolveFall();
+        }
+        else if (stunned)
+        {
+            ResolveStun();
+            face.sprite = stunFace;
+        }
         else
         {
+            face.sprite = normalFace;
             CheckInputs();
+            if (moveVelocity.x > 0) transform.localScale = new Vector3(-1, transform.localScale.y, transform.localScale.z);
+            else if (moveVelocity.x < 0) transform.localScale = new Vector3(1, transform.localScale.y, transform.localScale.z);
 
             if (Input.GetKeyDown(actionButton) && moveVelocity != Vector2.zero) tryDashing = true;
 
             Dash();
         }
+        myAnim.SetFloat("Speed", Mathf.Abs(moveVelocity.x) + Mathf.Abs(moveVelocity.y));
+
+        myAnim.SetBool("Dashing", dashing);
+        myAnim.SetBool("Stunned", stunned);
     }
 
     private void FixedUpdate()
@@ -105,6 +127,12 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    void ResolveFall()
+    {
+        moveVelocity = Vector2.zero;
+
+    }
+
     void ResolveStun()
     {
         moveVelocity = Vector2.zero;
@@ -118,7 +146,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
 
         if(collision.gameObject.CompareTag("Player") && dashing)
         {
