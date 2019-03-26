@@ -149,7 +149,8 @@ public class PlayerMovement : MonoBehaviour
 
         if(collision.gameObject.CompareTag("Player") && dashing)
         {
-            collision.gameObject.GetComponent<PlayerMovement>().stunned = true;
+            if (collision.gameObject.GetComponent<PlayerMovement>() != null) collision.gameObject.GetComponent<PlayerMovement>().stunned = true;
+            if(collision.gameObject.GetComponent<Rigidbody2D>() != null) collision.gameObject.GetComponent<Rigidbody2D>().AddForce(moveVelocity * 50);
         }
     }
 
