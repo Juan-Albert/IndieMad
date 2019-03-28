@@ -12,6 +12,7 @@ TextureImporter:
     21300014: NPC_9
     21300016: NPC_10
     21300018: NPC_11
+    21300020: NPC_6
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -289,6 +290,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 06253e41bd93e2744bfc2a2d33eca48d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_6
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 11
+        width: 186
+        height: 216
+      alignment: 9
+      pivot: {x: 0.52423555, y: 0.09677257}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d1a041631d7bb48a35ebfc33a8bf71
       vertices: []
       indices: 
       edges: []

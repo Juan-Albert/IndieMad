@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
 
         DontDestroyOnLoad(this.gameObject);
 
-        InstanciateGame();
+        //InstanciateGame();
     }
 
     public void ResetGame()

@@ -130,11 +130,14 @@ public class PlayerMovement : MonoBehaviour
     void ResolveFall()
     {
         moveVelocity = Vector2.zero;
-
+        dashing = false;
+        stunned = false;
     }
 
     void ResolveStun()
     {
+        stunned = false;
+        dashing = false;
         moveVelocity = Vector2.zero;
         stunDuration -= Time.deltaTime;
         if (stunDuration <= 0)
@@ -147,7 +150,7 @@ public class PlayerMovement : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        if(collision.gameObject.CompareTag("Player") && dashing)
+        if(collision.gameObject.CompareTag("Player") && dashing && !collision.gameObject.GetComponent<PlayerMovement>().stunned)
         {
             if (collision.gameObject.GetComponent<PlayerMovement>() != null) collision.gameObject.GetComponent<PlayerMovement>().stunned = true;
             if(collision.gameObject.GetComponent<Rigidbody2D>() != null) collision.gameObject.GetComponent<Rigidbody2D>().AddForce(moveVelocity * 50);

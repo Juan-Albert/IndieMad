@@ -12,4 +12,10 @@ public class PlayerInfo
 {
     public int id;
     public Team team;
+
+    public PlayerInfo(int newID, Team newTeam)
+    {
+        id = newID;
+        team = newTeam;
+    }
 }

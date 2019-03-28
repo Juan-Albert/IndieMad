@@ -12,7 +12,7 @@ public class TeamChooser : MonoBehaviour
 
     private void Awake()
     {
-        for(int i = 0; i < players.Length; i++)
+        for(int i = 0; i < GameManager.instance.playersCount; i++)
         {
             GameManager.instance.playersTeam[i] = Team.None;
             players[i].SetActive(GameManager.instance.playing[i]);
@@ -36,7 +36,7 @@ public class TeamChooser : MonoBehaviour
         {
            if(players[i].activeInHierarchy) GameManager.instance.playersTeam[i] = players[i].GetComponent<PlayerMovement>().playerInfo.team;
         }
-        //GameManager.instance.NextBattle();
+        GameManager.instance.NextBattle();
         
     }
 }
