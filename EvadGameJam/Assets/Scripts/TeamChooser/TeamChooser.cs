@@ -32,7 +32,7 @@ public class TeamChooser : MonoBehaviour
             timer.text = time.ToString();
         }
 
-        for (int i = 0; i < players.Length; i++)
+        for (int i = 0; i < GameManager.instance.playersCount; i++)
         {
            if(players[i].activeInHierarchy) GameManager.instance.playersTeam[i] = players[i].GetComponent<PlayerMovement>().playerInfo.team;
         }

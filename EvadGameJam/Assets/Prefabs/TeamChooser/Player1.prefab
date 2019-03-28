@@ -61,6 +61,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parent: {fileID: 8951358832218435404}
+  teamChangeParticles: {fileID: 0}
+  fallParticles: {fileID: 0}
+  dustParticles: {fileID: 0}
+  respawn: {x: 0, y: 0}
+  bodyParts: []
 --- !u!114 &8951358831819036861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,7 +97,6 @@ GameObject:
   - component: {fileID: 8951358832218435407}
   - component: {fileID: 8951358832218435404}
   - component: {fileID: 416184313}
-  - component: {fileID: 4223455751551454907}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Player
@@ -198,32 +202,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &4223455751551454907
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8951358832218435393}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.18}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 0.75}
-  m_EdgeRadius: 0
 --- !u!1001 &8951358831190444907
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -236,6 +214,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: dog
       objectReference: {fileID: 0}
+    - target: {fileID: 8995664184902209820, guid: a5d9905f6ebc5614eb83edb41d016739,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 67f160d5d33eed9498431dac3c227e1a,
+        type: 3}
     - target: {fileID: 5151817240667548057, guid: a5d9905f6ebc5614eb83edb41d016739,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -306,12 +290,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.6
       objectReference: {fileID: 0}
-    - target: {fileID: 8995664184902209820, guid: a5d9905f6ebc5614eb83edb41d016739,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 67f160d5d33eed9498431dac3c227e1a,
-        type: 3}
     - target: {fileID: 8682628378776719210, guid: a5d9905f6ebc5614eb83edb41d016739,
         type: 3}
       propertyPath: m_SortingOrder
