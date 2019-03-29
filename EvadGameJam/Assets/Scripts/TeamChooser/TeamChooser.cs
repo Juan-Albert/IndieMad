@@ -12,7 +12,7 @@ public class TeamChooser : MonoBehaviour
 
     private void Awake()
     {
-        for(int i = 0; i < GameManager.instance.playersCount; i++)
+        for(int i = 0; i < players.Length; i++)
         {
             GameManager.instance.playersTeam[i] = Team.None;
             players[i].SetActive(GameManager.instance.playing[i]);
@@ -32,7 +32,7 @@ public class TeamChooser : MonoBehaviour
             timer.text = time.ToString();
         }
 
-        for (int i = 0; i < GameManager.instance.playersCount; i++)
+        for (int i = 0; i < players.Length; i++)
         {
            if(players[i].activeInHierarchy) GameManager.instance.playersTeam[i] = players[i].GetComponent<PlayerMovement>().playerInfo.team;
         }

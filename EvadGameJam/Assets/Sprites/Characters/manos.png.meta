@@ -1,0 +1,447 @@
+fileFormatVersion: 2
+guid: 37750d0f7e2ea7045bf07a0d72f4bad9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: manos_0
+    21300002: manos_1
+    21300004: manos_2
+    21300006: manos_3
+    21300008: manos_4
+    21300010: manos_5
+    21300012: manos_6
+    21300014: manos_7
+    21300016: manos_8
+    21300018: manos_9
+    21300020: manos_10
+    21300022: manos_11
+    21300024: manos_13
+    21300026: manos_15
+    21300028: manos_17
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: manos_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 728
+        width: 229
+        height: 329
+      alignment: 9
+      pivot: {x: 0.3977789, y: 0.7134526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2a7685aeaa6df4ebad76630d017c06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manos_1
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 727
+        width: 230
+        height: 330
+      alignment: 9
+      pivot: {x: 0.39822334, y: 0.71280575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c0820f864d1c74381d6e25760986df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manos_2
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 709
+        width: 229
+        height: 348
+      alignment: 9
+      pivot: {x: 0.39777917, y: 0.73012114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a8f416996495a4e8e6fffbc1f786c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manos_3
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 747
+        width: 241
+        height: 310
+      alignment: 9
+      pivot: {x: 0.37219593, y: 0.6987149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabdf4bb9c3b4114583659cd91e587de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manos_4
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 0
+        width: 284
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ad22f0a71c69a479135c71c086c66a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manos_5
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 0
+        width: 105
+        height: 1057
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0136008cda2ea44be5855801e8cb53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manos_6
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 0
+        width: 105
+        height: 1057
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5b87ad67c96f04591f3d9b9c6913cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manos_7
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 368
+        width: 241
+        height: 334
+      alignment: 9
+      pivot: {x: 0.5051122, y: 0.62910527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93c8be5f25aa6c43a9f6eba9aada33b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manos_8
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 388
+        width: 242
+        height: 314
+      alignment: 9
+      pivot: {x: 0.48981798, y: 0.59809166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036fda6d3f73f5642b7486b2acfcae96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manos_9
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 388
+        width: 241
+        height: 314
+      alignment: 9
+      pivot: {x: 0.49488798, y: 0.59809166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f33caa2d9e30340b88bc0d53c83ce4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manos_10
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 348
+        width: 255
+        height: 354
+      alignment: 9
+      pivot: {x: 0.4710114, y: 0.64965373}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adab13f5aad9ae34f9d3f09a6357f982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manos_11
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 32
+        width: 209
+        height: 229
+      alignment: 9
+      pivot: {x: 0.45284098, y: 0.39239845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e84041e457ced4c9b82a2829aa52c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manos_13
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 32
+        width: 207
+        height: 229
+      alignment: 9
+      pivot: {x: 0.45833716, y: 0.39239874}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3d46a70b9f34b44bceff2b28475b2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manos_15
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 32
+        width: 206
+        height: 229
+      alignment: 9
+      pivot: {x: 0.44617352, y: 0.38163865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c066b2db244aebc4f9d3f9fd888587ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: manos_17
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 32
+        width: 206
+        height: 271
+      alignment: 9
+      pivot: {x: 0.45813462, y: 0.3317887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4c2f45fc0c59f4ca077f403b10dfc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1407c05f0ae7ca5469ec08b806406edf
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

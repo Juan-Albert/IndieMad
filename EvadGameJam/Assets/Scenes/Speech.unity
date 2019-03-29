@@ -626,6 +626,11 @@ PrefabInstance:
       propertyPath: startIdleTimer
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4493806696008050136, guid: 675f95aeca5ece043bd5265c90081ca4,
+        type: 3}
+      propertyPath: voteAxis
+      value: VerticalTest2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 675f95aeca5ece043bd5265c90081ca4, type: 3}
 --- !u!1 &1502315037 stripped
@@ -852,6 +857,11 @@ PrefabInstance:
       propertyPath: startIdleTimer
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5967329938362932555, guid: 97cbbd606cb2a514db2cb842f72620b4,
+        type: 3}
+      propertyPath: voteAxis
+      value: VerticalTest1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97cbbd606cb2a514db2cb842f72620b4, type: 3}
 --- !u!4 &1866376099 stripped
@@ -902,7 +912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playing: 01010101
-  playersCount: 3
+  playersCount: 4
   playersTeam: 01000000010000000000000000000000
   levels: 
   teamRedPuntuation: 0

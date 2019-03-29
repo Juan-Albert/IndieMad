@@ -16,7 +16,7 @@ public class PersuadeManager : MonoBehaviour
     private void Start()
     {
         Physics2D.IgnoreLayerCollision(10, 11);
-        for (int i = 0; i < GameManager.instance.playersCount; i++)
+        for (int i = 0; i < players.Length; i++)
         {
             players[i].SetActive(GameManager.instance.playing[i]);
             players[i].GetComponent<Persuade>().playerInfo = new PlayerInfo(i, GameManager.instance.playersTeam[i]);

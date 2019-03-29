@@ -704,8 +704,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72c3ee89bede8754aabeb1656e6b2552, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playing: 01010000
-  playersCount: 2
+  playing: 01010101
+  playersCount: 4
   playersTeam: 01000000000000000000000000000000
   levels: 
   teamRedPuntuation: 0
@@ -961,6 +961,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4851941076881119076, guid: 8e9ea58e0546abf4198dc8c7a74ac9b7,
+        type: 3}
+      propertyPath: hAxis
+      value: HorizontalTest1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4851941076881119076, guid: 8e9ea58e0546abf4198dc8c7a74ac9b7,
+        type: 3}
+      propertyPath: vAxis
+      value: VerticalTest1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4851941076881119076, guid: 8e9ea58e0546abf4198dc8c7a74ac9b7,
+        type: 3}
+      propertyPath: actionButton
+      value: 350
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e9ea58e0546abf4198dc8c7a74ac9b7, type: 3}
 --- !u!1001 &6604231569501375409
@@ -1034,6 +1049,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6604231569622770666, guid: 4bf54847c763f3248a56ef7ec8125f98,
+        type: 3}
+      propertyPath: hAxis
+      value: HorizontalTest2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6604231569622770666, guid: 4bf54847c763f3248a56ef7ec8125f98,
+        type: 3}
+      propertyPath: vAxis
+      value: VerticalTest2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6604231569622770666, guid: 4bf54847c763f3248a56ef7ec8125f98,
+        type: 3}
+      propertyPath: actionButton
+      value: 390
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bf54847c763f3248a56ef7ec8125f98, type: 3}

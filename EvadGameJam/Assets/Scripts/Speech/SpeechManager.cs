@@ -18,7 +18,7 @@ public class SpeechManager : MonoBehaviour
 
     private void Start()
     {
-        for (int i = 0; i < GameManager.instance.playersCount; i++)
+        for (int i = 0; i < players.Length; i++)
         {
             players[i].SetActive(GameManager.instance.playing[i]);
             players[i].GetComponent<VoteController>().playerInfo = new PlayerInfo(i, GameManager.instance.playersTeam[i]);

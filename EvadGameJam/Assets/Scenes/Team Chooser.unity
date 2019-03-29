@@ -1080,7 +1080,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.0011387
+  orthographic size: 5.0150747
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -3260,6 +3260,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5175106789689664586, guid: d515eb8b9a01dee4a8214b2153dd6078,
+        type: 3}
+      propertyPath: hAxis
+      value: HorizontalTest1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5175106789689664586, guid: d515eb8b9a01dee4a8214b2153dd6078,
+        type: 3}
+      propertyPath: vAxis
+      value: VerticalTest1
+      objectReference: {fileID: 0}
     - target: {fileID: 596623174, guid: d515eb8b9a01dee4a8214b2153dd6078, type: 3}
       propertyPath: m_Simulated
       value: 1
@@ -3398,6 +3408,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8589398666053243504, guid: f94b55f7f1a4ad94e9bad754f35f83a5,
+        type: 3}
+      propertyPath: hAxis
+      value: HorizontalTest2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8589398666053243504, guid: f94b55f7f1a4ad94e9bad754f35f83a5,
+        type: 3}
+      propertyPath: vAxis
+      value: VerticalTest2
       objectReference: {fileID: 0}
     - target: {fileID: 2965040092581233551, guid: f94b55f7f1a4ad94e9bad754f35f83a5,
         type: 3}

@@ -8,6 +8,7 @@ TagManager:
   - RedZone
   - Ground
   - NPC
+  - Envelope
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - Ground
   - PlayerCollision
   - NPCCollision
-  - 
+  - Envelope
   - 
   - 
   - 

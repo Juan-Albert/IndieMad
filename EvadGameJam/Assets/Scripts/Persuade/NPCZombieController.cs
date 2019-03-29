@@ -18,7 +18,7 @@ public class NPCZombieController : MonoBehaviour
 
     private void Awake()
     {
-        persuadedBar.transform.localScale = new Vector2(0f, 1f);
+        persuadedBar.transform.localScale = new Vector2(0f, persuadedBar.transform.localScale.y);
         var randTeam = Random.value > 0.5 ? true : false;
         if (randTeam)
         {
@@ -64,12 +64,12 @@ public class NPCZombieController : MonoBehaviour
         if (moveTo != team)
         {
             percentage = percentage + 0.01f;
-            persuadedBar.transform.localScale = new Vector2(percentage, 1f);
+            persuadedBar.transform.localScale = new Vector2(percentage, persuadedBar.transform.localScale.y);
 
             if (percentage >= 1f)
             {
                 percentage = 0f;
-                persuadedBar.transform.localScale = new Vector2(percentage, 1f);
+                persuadedBar.transform.localScale = new Vector2(percentage, persuadedBar.transform.localScale.y);
 
                 if (moveTo == Team.Red)
                 {
