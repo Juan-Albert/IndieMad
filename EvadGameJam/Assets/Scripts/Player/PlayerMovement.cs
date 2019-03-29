@@ -136,10 +136,10 @@ public class PlayerMovement : MonoBehaviour
 
     void ResolveStun()
     {
-        stunned = false;
         dashing = false;
         moveVelocity = Vector2.zero;
         stunDuration -= Time.deltaTime;
+        Debug.Log(stunDuration);
         if (stunDuration <= 0)
         {
             stunned = false;

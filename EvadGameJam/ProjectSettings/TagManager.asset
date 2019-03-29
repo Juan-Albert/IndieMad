@@ -7,6 +7,7 @@ TagManager:
   - BlueZone
   - RedZone
   - Ground
+  - NPC
   layers:
   - Default
   - TransparentFX
@@ -18,8 +19,8 @@ TagManager:
   - 
   - PostProcessing
   - Ground
-  - 
-  - 
+  - PlayerCollision
+  - NPCCollision
   - 
   - 
   - 
