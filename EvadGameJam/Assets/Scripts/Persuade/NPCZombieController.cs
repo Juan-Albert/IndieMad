@@ -13,7 +13,7 @@ public class NPCZombieController : MonoBehaviour
     public GameObject blueParticles, redParticles;
     public Team moveTo = Team.Red;
 
-
+    
     private float percentage = 0;
 
     private void Awake()
