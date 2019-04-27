@@ -10,12 +10,24 @@ public class GameManager : MonoBehaviour
     public List<Team> playersTeam;
     public List<int> levels;
 
-    public int teamRedPuntuation = 0;
-    public int teamBluePuntuation = 0;
-
     public static GameManager instance = null;
 
+    public int redScore
+    {
+        get { return teamRedPuntuation; }
+        set { teamRedPuntuation = value; }
+    }
+
+    public int blueScore
+    {
+        get { return teamBluePuntuation; }
+        set { teamBluePuntuation = value; }
+    }
+
+    private int teamRedPuntuation = 0;
+    private int teamBluePuntuation = 0;
     private List<int> tempLevels;
+
 
     private void Awake()
     {

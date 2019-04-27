@@ -17,6 +17,7 @@ public class Stamp : MonoBehaviour
     public Animator myAnim;
 
     public GameObject redStamp, blueStamp;
+    public StampManager stampManager;
 
     private Rigidbody2D myRB;
     private Vector2 moveVelocity;
@@ -51,7 +52,6 @@ public class Stamp : MonoBehaviour
             myAnim.SetTrigger("Stamp");
             Debug.DrawLine(transform.position, transform.position + new Vector3(0.5f, 0f, 0f),Color.white, 50f);
             RaycastHit2D[] hitColliders = Physics2D.CircleCastAll(transform.position, 0.5f, new Vector2(0,0));
-            Debug.Log(hitColliders.Length);
             int maxLayer = -1;
             GameObject envelope = null;
             foreach(var collision in hitColliders)
@@ -70,11 +70,24 @@ public class Stamp : MonoBehaviour
 
             if (envelope != null)
             {
-                GameObject stamp;
-                if (playerInfo.team == Team.Blue) stamp = Instantiate(blueStamp, transform.position, transform.rotation, envelope.transform) as GameObject;
-                else stamp = Instantiate(redStamp, transform.position, transform.rotation, envelope.transform) as GameObject;
+                if(!envelope.GetComponent<Envelope>().stamped)
+                {
+                    Debug.Log("Te estampo");
+                    envelope.GetComponent<Envelope>().stamped = true;
+                    GameObject stamp;
+                    if (playerInfo.team == Team.Blue)
+                    {
+                        stampManager.BlueStamp();
+                        stamp = Instantiate(blueStamp, transform.position, transform.rotation, envelope.transform) as GameObject;
+                    }
+                    else
+                    {
+                        stampManager.RedStamp();
+                        stamp = Instantiate(redStamp, transform.position, transform.rotation, envelope.transform) as GameObject;
+                    }
 
-                stamp.GetComponent<SpriteRenderer>().sortingOrder = maxLayer + 1;
+                    stamp.GetComponent<SpriteRenderer>().sortingOrder = maxLayer + 1;
+                }
             }
         }
 

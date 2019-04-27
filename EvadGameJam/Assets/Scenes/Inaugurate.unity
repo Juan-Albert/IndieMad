@@ -112,9 +112,9 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &77488916 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4403774177231126041, guid: e467dd18ec2ae67449a896d591d4e4f6,
+--- !u!232 &43042568 stripped
+DistanceJoint2D:
+  m_CorrespondingSourceObject: {fileID: 4403774177520001483, guid: e467dd18ec2ae67449a896d591d4e4f6,
     type: 3}
   m_PrefabInstance: {fileID: 8332722295921183858}
   m_PrefabAsset: {fileID: 0}
@@ -225,9 +225,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &964553907 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4403774177913174558, guid: e467dd18ec2ae67449a896d591d4e4f6,
+--- !u!232 &964553909 stripped
+DistanceJoint2D:
+  m_CorrespondingSourceObject: {fileID: 4403774177913174528, guid: e467dd18ec2ae67449a896d591d4e4f6,
     type: 3}
   m_PrefabInstance: {fileID: 8332722295921183858}
   m_PrefabAsset: {fileID: 0}
@@ -282,8 +282,6 @@ MonoBehaviour:
   playersCount: 4
   playersTeam: 01000000000000000100000000000000
   levels: 
-  teamRedPuntuation: 0
-  teamBluePuntuation: 0
 --- !u!4 &1050541910
 Transform:
   m_ObjectHideFlags: 0
@@ -328,12 +326,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 6788853404958743079}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1356280193 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4403774178465693400, guid: e467dd18ec2ae67449a896d591d4e4f6,
-    type: 3}
-  m_PrefabInstance: {fileID: 8332722295921183858}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1399662799 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4403774177796928925, guid: e467dd18ec2ae67449a896d591d4e4f6,
@@ -370,9 +362,9 @@ SpriteRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 8886445854273528557}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1769196751 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4403774178347681551, guid: e467dd18ec2ae67449a896d591d4e4f6,
+--- !u!232 &1769196753 stripped
+DistanceJoint2D:
+  m_CorrespondingSourceObject: {fileID: 4403774178347681553, guid: e467dd18ec2ae67449a896d591d4e4f6,
     type: 3}
   m_PrefabInstance: {fileID: 8332722295921183858}
   m_PrefabAsset: {fileID: 0}
@@ -455,6 +447,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!232 &1903403883 stripped
+DistanceJoint2D:
+  m_CorrespondingSourceObject: {fileID: 4403774176553607434, guid: e467dd18ec2ae67449a896d591d4e4f6,
+    type: 3}
+  m_PrefabInstance: {fileID: 8332722295921183858}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2090975127
 GameObject:
   m_ObjectHideFlags: 0
@@ -618,6 +616,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ribbons
       objectReference: {fileID: 0}
+    - target: {fileID: 4403774177913174558, guid: e467dd18ec2ae67449a896d591d4e4f6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8332722296520458411, guid: e467dd18ec2ae67449a896d591d4e4f6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -751,7 +754,7 @@ PrefabInstance:
         type: 3}
       propertyPath: cutObject
       value: 
-      objectReference: {fileID: 1356280193}
+      objectReference: {fileID: 43042568}
     - target: {fileID: 8886445855449053544, guid: 40cc23857e29c3349889deb969a3a64b,
         type: 3}
       propertyPath: barLimit
@@ -767,6 +770,11 @@ PrefabInstance:
       propertyPath: barSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 8886445855449053544, guid: 40cc23857e29c3349889deb969a3a64b,
+        type: 3}
+      propertyPath: inaugurateManager
+      value: 
+      objectReference: {fileID: 816056195}
     - target: {fileID: 8886445855273823650, guid: 40cc23857e29c3349889deb969a3a64b,
         type: 3}
       propertyPath: strengthMark
@@ -776,7 +784,7 @@ PrefabInstance:
         type: 3}
       propertyPath: cutObject
       value: 
-      objectReference: {fileID: 1769196751}
+      objectReference: {fileID: 1769196753}
     - target: {fileID: 8886445855273823650, guid: 40cc23857e29c3349889deb969a3a64b,
         type: 3}
       propertyPath: barLimit
@@ -792,6 +800,11 @@ PrefabInstance:
       propertyPath: barSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 8886445855273823650, guid: 40cc23857e29c3349889deb969a3a64b,
+        type: 3}
+      propertyPath: inaugurateManager
+      value: 
+      objectReference: {fileID: 816056195}
     - target: {fileID: 8886445854302109167, guid: 40cc23857e29c3349889deb969a3a64b,
         type: 3}
       propertyPath: strengthMark
@@ -801,7 +814,7 @@ PrefabInstance:
         type: 3}
       propertyPath: cutObject
       value: 
-      objectReference: {fileID: 964553907}
+      objectReference: {fileID: 964553909}
     - target: {fileID: 8886445854302109167, guid: 40cc23857e29c3349889deb969a3a64b,
         type: 3}
       propertyPath: barLimit
@@ -817,6 +830,11 @@ PrefabInstance:
       propertyPath: barSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 8886445854302109167, guid: 40cc23857e29c3349889deb969a3a64b,
+        type: 3}
+      propertyPath: inaugurateManager
+      value: 
+      objectReference: {fileID: 816056195}
     - target: {fileID: 8886445854707973002, guid: 40cc23857e29c3349889deb969a3a64b,
         type: 3}
       propertyPath: strengthMark
@@ -826,7 +844,7 @@ PrefabInstance:
         type: 3}
       propertyPath: cutObject
       value: 
-      objectReference: {fileID: 77488916}
+      objectReference: {fileID: 1903403883}
     - target: {fileID: 8886445854707973002, guid: 40cc23857e29c3349889deb969a3a64b,
         type: 3}
       propertyPath: barLimit
@@ -842,5 +860,10 @@ PrefabInstance:
       propertyPath: barSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 8886445854707973002, guid: 40cc23857e29c3349889deb969a3a64b,
+        type: 3}
+      propertyPath: inaugurateManager
+      value: 
+      objectReference: {fileID: 816056195}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 40cc23857e29c3349889deb969a3a64b, type: 3}

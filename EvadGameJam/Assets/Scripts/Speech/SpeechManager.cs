@@ -90,8 +90,8 @@ public class SpeechManager : MonoBehaviour
             randSpeaker = !randSpeaker;
             roundPoints = 0;
         }
-        if (bluePoints > redPoints) GameManager.instance.teamBluePuntuation++;
-        else GameManager.instance.teamRedPuntuation++;
+        if (bluePoints > redPoints) GameManager.instance.blueScore++;
+        else GameManager.instance.redScore++;
         GameManager.instance.ChangeTeams();
 
     }

@@ -39,6 +39,15 @@ public class VoteController : MonoBehaviour
                 speechManager.Hate();
                 idleTimer = startIdleTimer;
             }
+            else
+            {
+                idleTimer -= Time.deltaTime;
+                if (idleTimer < 0)
+                {
+                    myAnim.SetBool("Hate", false);
+                    idleTimer = startIdleTimer;
+                }
+            }
         }
         else if (Input.GetAxisRaw(voteAxis) < 0)
         {
@@ -50,6 +59,15 @@ public class VoteController : MonoBehaviour
                 upInUse = true;
                 speechManager.Cheer();
                 idleTimer = startIdleTimer;
+            }
+            else
+            {
+                idleTimer -= Time.deltaTime;
+                if (idleTimer < 0)
+                {
+                    myAnim.SetBool("Cheer", false);
+                    idleTimer = startIdleTimer;
+                }
             }
         }
         else

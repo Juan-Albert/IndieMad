@@ -7,6 +7,7 @@ public class Envelope : MonoBehaviour
     public float speed;
     public Vector2 target;
     public bool start = false;
+    public bool stamped = false;
 
     private void Update()
     {

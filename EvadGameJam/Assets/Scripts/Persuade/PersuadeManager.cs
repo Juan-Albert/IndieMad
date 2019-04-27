@@ -30,8 +30,8 @@ public class PersuadeManager : MonoBehaviour
     {
         if(bluePoints + redPoints >= npcNumber)
         {
-            if (bluePoints > redPoints) GameManager.instance.teamBluePuntuation++;
-            else GameManager.instance.teamRedPuntuation++;
+            if (bluePoints > redPoints) GameManager.instance.blueScore++;
+            else GameManager.instance.redScore++;
             GameManager.instance.ChangeTeams();
         }
     }

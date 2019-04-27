@@ -11,8 +11,9 @@ public class ScissorsController : MonoBehaviour
     public Transform strengthMark;
 
     public GameObject openScissors, closeScissors;
-    public GameObject cutObject;
+    public DistanceJoint2D cutObject;
 
+    public InaugurateManager inaugurateManager;
     public PlayerInfo playerInfo;
     public KeyCode actionKey;
 
@@ -22,6 +23,7 @@ public class ScissorsController : MonoBehaviour
     private bool success = false;
     private bool reach = false;
     private bool waiting = false;
+    private bool finish = false;
 
     private void Awake()
     {
@@ -30,18 +32,21 @@ public class ScissorsController : MonoBehaviour
 
     private void Update()
     {
-        if (!cutting)
+        if(!finish)
         {
-            if (Input.GetKeyDown(actionKey))
+            if (!cutting)
             {
-                cutting = true;
-                CheckBar();
+                if (Input.GetKeyDown(actionKey))
+                {
+                    cutting = true;
+                    CheckBar();
+                }
+                MoveBar();
             }
-            MoveBar();
-        }
-        else
-        {
-            TryCut();
+            else
+            {
+                TryCut();
+            }
         }
 
     }
@@ -86,7 +91,10 @@ public class ScissorsController : MonoBehaviour
                     if (transform.position.y > ribbonPos)
                     {
                         StartCoroutine(Cut());
-                        cutObject.SetActive(false);
+                        cutObject.enabled = false;
+                        finish = true;
+                        if (playerInfo.team == Team.Blue) inaugurateManager.BlueCut();
+                        else inaugurateManager.RedCut();
                     }
                 }
                 else
@@ -110,6 +118,12 @@ public class ScissorsController : MonoBehaviour
         }
         
         
+    }
+
+    public void Reinstance()
+    {
+        finish = false;
+        cutObject.enabled = true;
     }
 
     IEnumerator Cut()

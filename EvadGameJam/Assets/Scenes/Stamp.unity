@@ -167,6 +167,7 @@ MonoBehaviour:
   myAnim: {fileID: 0}
   redStamp: {fileID: 0}
   blueStamp: {fileID: 0}
+  stampManager: {fileID: 2043172789}
 --- !u!50 &217137142
 Rigidbody2D:
   serializedVersion: 4
@@ -250,6 +251,7 @@ MonoBehaviour:
   redStamp: {fileID: 643360133744144886, guid: ba11bcb28e25c8c44a190607ae66676b, type: 3}
   blueStamp: {fileID: 6666169490914819548, guid: 7efaabfe965bb1c479fc5e16414b4129,
     type: 3}
+  stampManager: {fileID: 2043172789}
 --- !u!50 &648984497
 Rigidbody2D:
   serializedVersion: 4
@@ -327,6 +329,7 @@ MonoBehaviour:
   redStamp: {fileID: 643360133744144886, guid: ba11bcb28e25c8c44a190607ae66676b, type: 3}
   blueStamp: {fileID: 6666169490914819548, guid: 7efaabfe965bb1c479fc5e16414b4129,
     type: 3}
+  stampManager: {fileID: 2043172789}
 --- !u!50 &867316565
 Rigidbody2D:
   serializedVersion: 4
@@ -359,6 +362,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Players
+      objectReference: {fileID: 0}
+    - target: {fileID: 3638248951558678248, guid: 6ea1be946f69fcd4590f6bb73a8c073b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3638248951499418514, guid: 6ea1be946f69fcd4590f6bb73a8c073b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3638248951896901190, guid: 6ea1be946f69fcd4590f6bb73a8c073b,
         type: 3}
@@ -433,7 +446,7 @@ PrefabInstance:
     - target: {fileID: 3638248951497683217, guid: 6ea1be946f69fcd4590f6bb73a8c073b,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3638248952882312690, guid: 6ea1be946f69fcd4590f6bb73a8c073b,
         type: 3}
@@ -449,11 +462,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: 9994
-      objectReference: {fileID: 0}
-    - target: {fileID: 3638248951499418514, guid: 6ea1be946f69fcd4590f6bb73a8c073b,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3638248952952191872, guid: 6ea1be946f69fcd4590f6bb73a8c073b,
         type: 3}
@@ -475,11 +483,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: 9991
-      objectReference: {fileID: 0}
-    - target: {fileID: 3638248951558678248, guid: 6ea1be946f69fcd4590f6bb73a8c073b,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3638248951479194948, guid: 6ea1be946f69fcd4590f6bb73a8c073b,
         type: 3}
@@ -510,6 +513,30 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 968075176}
   m_PrefabAsset: {fileID: 0}
+--- !u!212 &968075179 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3638248951479194948, guid: 6ea1be946f69fcd4590f6bb73a8c073b,
+    type: 3}
+  m_PrefabInstance: {fileID: 968075176}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &968075180 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3638248952952191872, guid: 6ea1be946f69fcd4590f6bb73a8c073b,
+    type: 3}
+  m_PrefabInstance: {fileID: 968075176}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &968075181 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3638248952882312690, guid: 6ea1be946f69fcd4590f6bb73a8c073b,
+    type: 3}
+  m_PrefabInstance: {fileID: 968075176}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &968075182 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3638248951205563291, guid: 6ea1be946f69fcd4590f6bb73a8c073b,
+    type: 3}
+  m_PrefabInstance: {fileID: 968075176}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &970963585
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,6 +547,10 @@ GameObject:
   m_Component:
   - component: {fileID: 970963587}
   - component: {fileID: 970963586}
+  - component: {fileID: 970963591}
+  - component: {fileID: 970963590}
+  - component: {fileID: 970963589}
+  - component: {fileID: 970963588}
   m_Layer: 0
   m_Name: BIG_table
   m_TagString: Untagged
@@ -589,6 +620,110 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &970963588
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970963585}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 9.325617, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.54876614, y: 10.8}
+  m_EdgeRadius: 0
+--- !u!61 &970963589
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970963585}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -5.1479044}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 0.5041914}
+  m_EdgeRadius: 0
+--- !u!61 &970963590
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970963585}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 5.128104}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 19.2, y: 0.5437918}
+  m_EdgeRadius: 0
+--- !u!61 &970963591
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970963585}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -9.22663, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.74674034, y: 10.8}
+  m_EdgeRadius: 0
 --- !u!1 &1499434157 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3638248951497683217, guid: 6ea1be946f69fcd4590f6bb73a8c073b,
@@ -645,6 +780,7 @@ MonoBehaviour:
   redStamp: {fileID: 643360133744144886, guid: ba11bcb28e25c8c44a190607ae66676b, type: 3}
   blueStamp: {fileID: 6666169490914819548, guid: 7efaabfe965bb1c479fc5e16414b4129,
     type: 3}
+  stampManager: {fileID: 2043172789}
 --- !u!50 &1499434161
 Rigidbody2D:
   serializedVersion: 4
@@ -793,6 +929,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   envelope: {fileID: 6782560762901855860, guid: 8373204617861c34d9878b58064c8749,
     type: 3}
+  players:
+  - {fileID: 867316561}
+  - {fileID: 1499434157}
+  - {fileID: 648984493}
+  - {fileID: 217137138}
+  Arms:
+  - {fileID: 968075182}
+  - {fileID: 968075181}
+  - {fileID: 968075180}
+  - {fileID: 968075179}
+  redArm: {fileID: 21300012, guid: c09d49642ca8dd34aa5e73c2ae0dc2c8, type: 3}
+  blueArm: {fileID: 21300010, guid: c09d49642ca8dd34aa5e73c2ae0dc2c8, type: 3}
 --- !u!1 &2090531175
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,12 +970,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72c3ee89bede8754aabeb1656e6b2552, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playing: 01010101
+  playing: 01000100
   playersCount: 4
-  playersTeam: 01000000000000000100000000000000
+  playersTeam: 01000000000000000000000000000000
   levels: 
-  teamRedPuntuation: 0
-  teamBluePuntuation: 0
 --- !u!4 &2090531177
 Transform:
   m_ObjectHideFlags: 0
