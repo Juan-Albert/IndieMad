@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Jose-PC\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Jose-PC\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_EvadGameJam.1736327552.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Jose-PC\Documents\GitHub\IndieMad\EvadGameJam" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Boss" t="Include">
+            <e p="absorption.cs" t="Include" />
+            <e p="BH.cs" t="Include" />
+            <e p="BossStageManagement.cs" t="Include" />
+            <e p="Briefcase.cs" t="Include" />
+            <e p="Money.cs" t="Include" />
+            <e p="RandomPositionGenerator.cs" t="Include" />
+          </e>
+          <e p="GameManager.cs" t="Include" />
+          <e p="InitGame" t="Include">
+            <e p="ControllerSearcher.cs" t="Include" />
+          </e>
+          <e p="Player" t="Include">
+            <e p="GroundChecker.cs" t="Include" />
+            <e p="PlayerInfo.cs" t="Include" />
+            <e p="PlayerMovement.cs" t="Include" />
+          </e>
+          <e p="Speech" t="Include">
+            <e p="SpeechManager.cs" t="Include" />
+            <e p="VoteController.cs" t="Include" />
+          </e>
+          <e p="TeamChooser" t="Include">
+            <e p="SpriteRenderOrderSystem.cs" t="Include" />
+            <e p="TeamChooser.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="EvadGameJam.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
