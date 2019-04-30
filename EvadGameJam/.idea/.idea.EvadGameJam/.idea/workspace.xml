@@ -2,14 +2,217 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af05810a-79c1-4f8f-aa9e-49a4bd18bea7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.EvadGameJam/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.EvadGameJam/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.EvadGameJam/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.EvadGameJam/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/New Material.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/New Material.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Unlit_Conveyor.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Unlit_Conveyor.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/whiestar_ConveyorBelt.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/whiestar_ConveyorBelt.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ConveyorBelt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ConveyorBelt/Player1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ConveyorBelt/Player1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ConveyorBelt/Player2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ConveyorBelt/Player2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ConveyorBelt/Player3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ConveyorBelt/Player3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ConveyorBelt/Player4.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ConveyorBelt/Player4.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Inaugurate.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Inaugurate/Blue Ribbon.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Inaugurate/Blue Ribbon.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Inaugurate/Players.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Inaugurate/Players.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Inaugurate/Ribbons.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Inaugurate/Ribbons.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Inaugurate/StrengthBars.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Inaugurate/StrengthBars.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Persuade.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Persuade/NPC.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Persuade/NPC.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Persuade/Player1.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Persuade/Player1.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Persuade/Player2.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Persuade/Player2.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Persuade/Player3.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Persuade/Player3.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Persuade/Player4.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Persuade/Player4.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Persuade/Talking effect.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Persuade/Talking effect.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Persuade/VoteEffectBlue.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Persuade/VoteEffectBlue.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Persuade/VoteEffectRed.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Persuade/VoteEffectRed.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Stamp.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Stamp/Players.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Stamp/Players.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Stamp/sobre_blanco.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Stamp/sobre_blanco.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Stamp/stamp_azul.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Stamp/stamp_azul.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Stamp/stamp_rojo.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Stamp/stamp_rojo.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/TeamChooser/NPC.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/TeamChooser/NPC.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/ConveyorBelt.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/ConveyorBelt.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Inaugurate.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Inaugurate.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Stamp.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Stamp.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ConveyorBelt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ConveyorBelt/ScrollTexture.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ConveyorBelt/ScrollTexture.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inaugurate.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inaugurate/InaugurateManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inaugurate/InaugurateManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inaugurate/ScissorsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Inaugurate/ScissorsController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Persuade.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Persuade/NPCZombieController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Persuade/NPCZombieController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Persuade/Persuade.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Persuade/Persuade.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Persuade/PersuadeManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Persuade/PersuadeManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stamp.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stamp/Envelope.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stamp/Envelope.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stamp/Stamp.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stamp/Stamp.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stamp/StampManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stamp/StampManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/Conveyor.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/Conveyor.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/ConveyorBelt.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/ConveyorBelt.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/DogHand.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/DogHand.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/NPC zombi.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/NPC zombi.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/Zombi_NPC.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/Zombi_NPC.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/stamp.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/stamp.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/stamp_idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/stamp_idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Prefabs/NPC zombi.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Prefabs/NPC zombi.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/barritas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/barritas.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/manos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/manos.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/sobre_azul_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/sobre_azul_02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/sobre_rojo_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/sobre_rojo_02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/stamp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/stamp.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ConveyorBelt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ConveyorBelt/cintas_cinta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ConveyorBelt/cintas_cinta.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ConveyorBelt/cintas_desk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ConveyorBelt/cintas_desk.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ConveyorBelt/cintas_pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ConveyorBelt/cintas_pattern.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ConveyorBelt/cintas_stage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ConveyorBelt/cintas_stage.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ConveyorBelt/cintas_trituradora.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ConveyorBelt/cintas_trituradora.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ConveyorBelt/cintas_tubo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ConveyorBelt/cintas_tubo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Inaugurate.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Inaugurate/cortinas_variante.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Inaugurate/cortinas_variante.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Inaugurate/lazo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Inaugurate/lazo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Persuade/Pasillo_electoral_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Persuade/Pasillo_electoral_02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Persuade/cabina_azul_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Persuade/cabina_azul_02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Persuade/cabina_roja_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Persuade/cabina_roja_02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/SelectController.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/SelectController/selection_screen_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/SelectController/selection_screen_background.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/SelectController/selection_screen_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/SelectController/selection_screen_mask.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Stamp.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Stamp/BIG_table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Stamp/BIG_table.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Stamp/sobre_blanco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Stamp/sobre_blanco.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Stamp/stamp_azul.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Stamp/stamp_azul.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Stamp/stamp_rojo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Stamp/stamp_rojo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/square2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/square2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EvadGameJam/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EvadGameJam/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EvadGameJam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EvadGameJam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TeamChooser/Player1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/TeamChooser/Player1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenary.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Scenary.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenary.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Scenary.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Persuade.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Persuade.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SelectController.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SelectController.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Speech.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Speech.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Persuade.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Team Chooser.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Team Chooser.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Speech/SpeechManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Speech/SpeechManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Speech/VoteController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Speech/VoteController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TeamChooser/TeamChooser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TeamChooser/TeamChooser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/NPC 1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/NPC 1.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/NPC 1.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/NPC 1.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/NPC hate.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/NPC hate.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/NPC hate.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/NPC hate.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/NPC.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/NPC.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/NPC.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/NPC.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/NPC_2.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/NPC_2.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/NPC_2.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/NPC_2.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/NPC_politic_Blue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Prefabs/NPC_politic_Blue.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/NPC_politic_Blue.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Prefabs/NPC_politic_Blue.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/NPC_politic_Red.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Prefabs/NPC_politic_Red.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/NPC_politic_Red.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Prefabs/NPC_politic_Red.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/ashamed_politic.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/ashamed_politic.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/ashamed_politic.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/ashamed_politic.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/crowd.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/crowd.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/crowd.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/crowd.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/crowd.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Prefabs/crowd.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/crowd.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Prefabs/crowd.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/dash_02.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/dash_02.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/dash_02.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/dash_02.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/dino.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Prefabs/dino.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/dino.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Prefabs/dino.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/dog.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Prefabs/dog.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/dog.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Prefabs/dog.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/duck.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/duck.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/duck.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/duck.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/duck.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Prefabs/duck.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/duck.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Prefabs/duck.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/happy_politic.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/happy_politic.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/happy_politic.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/happy_politic.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/idle_02.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/idle_02.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/idle_02.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/idle_02.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/idle_politic.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/idle_politic.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/idle_politic.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/idle_politic.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/panda.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Prefabs/panda.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/panda.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Prefabs/panda.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/politic.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/politic.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/politic.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/politic.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/stunt_02.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/stunt_02.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/stunt_02.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/stunt_02.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/walk_02.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/walk_02.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Characters/walk_02.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Characters/Animations/walk_02.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Square.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Square.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sobre_rojo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/sobre_rojo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sobre_rojo.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/sobre_rojo.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +244,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Boss/Money.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <marker date="1556556317561" expanded="false" signature="6:78" ph="..." />
                 <marker date="1556556317561" expanded="true" signature="114:460" ph="{...}" />
@@ -80,7 +283,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Boss/RandomPositionGenerator.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="645">
-              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
               <folding>
                 <marker date="1556609023340" expanded="false" signature="6:121" ph="..." />
                 <marker date="1556609023340" expanded="true" signature="175:1215" ph="{...}" />
@@ -100,7 +303,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Boss/BH.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <marker date="1556553022286" expanded="false" signature="6:78" ph="..." />
                 <marker date="1556553022286" expanded="true" signature="111:2222" ph="{...}" />
@@ -114,16 +317,46 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Boss/BossStageManagement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="240">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
               <folding>
-                <marker date="1556610896143" expanded="false" signature="6:78" ph="..." />
-                <marker date="1556610896143" expanded="true" signature="128:325" ph="{...}" />
-                <marker date="1556610896143" expanded="true" signature="219:323" ph="{...}" />
-                <marker date="1556610896143" expanded="true" signature="284:317" ph="{...}" />
+                <marker date="1556610953680" expanded="false" signature="6:78" ph="..." />
+                <marker date="1556610953680" expanded="true" signature="128:439" ph="{...}" />
+                <marker date="1556610953680" expanded="true" signature="219:437" ph="{...}" />
+                <marker date="1556610953680" expanded="true" signature="257:362" ph="{...}" />
+                <marker date="1556610953680" expanded="true" signature="398:431" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/GroundChecker.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <marker date="1553795479424" expanded="false" signature="6:78" ph="..." />
+                <marker date="1553795479424" expanded="true" signature="122:3315" ph="{...}" />
+                <marker date="1553795479424" expanded="true" signature="429:926" ph="{...}" />
+                <marker date="1553795479424" expanded="true" signature="491:673" ph="{...}" />
+                <marker date="1553795479424" expanded="true" signature="735:920" ph="{...}" />
+                <marker date="1553795479424" expanded="true" signature="982:2631" ph="{...}" />
+                <marker date="1553795479424" expanded="true" signature="1043:1646" ph="{...}" />
+                <marker date="1553795479424" expanded="true" signature="1497:1587" ph="{...}" />
+                <marker date="1553795479424" expanded="true" signature="1703:2133" ph="{...}" />
+                <marker date="1553795479424" expanded="true" signature="1736:1901" ph="{...}" />
+                <marker date="1553795479424" expanded="true" signature="1958:2123" ph="{...}" />
+                <marker date="1553795479424" expanded="true" signature="2195:2625" ph="{...}" />
+                <marker date="1553795479424" expanded="true" signature="2227:2391" ph="{...}" />
+                <marker date="1553795479424" expanded="true" signature="2449:2615" ph="{...}" />
+                <marker date="1553795479424" expanded="true" signature="2655:3313" ph="{...}" />
+                <marker date="1553795479424" expanded="true" signature="2832:3234" ph="{...}" />
+                <marker date="1553795479424" expanded="true" signature="2890:2980" ph="{...}" />
+                <marker date="1553795479424" expanded="true" signature="3080:3172" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -137,6 +370,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boss/BossStageManagement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boss/RandomPositionGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/GroundChecker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boss/Absorption.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boss/BH.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boss/Money.cs" root0="FORCE_HIGHLIGHTING" />
@@ -246,12 +480,12 @@
       <updated>1556545193639</updated>
       <workItem from="1556545198926" duration="245000" />
       <workItem from="1556545634100" duration="11886000" />
-      <workItem from="1556608574823" duration="1239000" />
+      <workItem from="1556608574823" duration="2158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13370000" />
+    <option name="totallyTimeSpent" value="14289000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,7 +609,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Boss/BH.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <marker date="1556553022286" expanded="false" signature="6:78" ph="..." />
             <marker date="1556553022286" expanded="true" signature="111:2222" ph="{...}" />
@@ -391,7 +625,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Boss/RandomPositionGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
           <folding>
             <marker date="1556609023340" expanded="false" signature="6:121" ph="..." />
             <marker date="1556609023340" expanded="true" signature="175:1215" ph="{...}" />
@@ -424,7 +658,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Boss/Money.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <marker date="1556556317561" expanded="false" signature="6:78" ph="..." />
             <marker date="1556556317561" expanded="true" signature="114:460" ph="{...}" />
@@ -437,13 +671,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Boss/BossStageManagement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="240">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding>
-            <marker date="1556610896143" expanded="false" signature="6:78" ph="..." />
-            <marker date="1556610896143" expanded="true" signature="128:325" ph="{...}" />
-            <marker date="1556610896143" expanded="true" signature="219:323" ph="{...}" />
-            <marker date="1556610896143" expanded="true" signature="284:317" ph="{...}" />
+            <marker date="1556610953680" expanded="false" signature="6:78" ph="..." />
+            <marker date="1556610953680" expanded="true" signature="128:439" ph="{...}" />
+            <marker date="1556610953680" expanded="true" signature="219:437" ph="{...}" />
+            <marker date="1556610953680" expanded="true" signature="257:362" ph="{...}" />
+            <marker date="1556610953680" expanded="true" signature="398:431" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player/GroundChecker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <marker date="1553795479424" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553795479424" expanded="true" signature="122:3315" ph="{...}" />
+            <marker date="1553795479424" expanded="true" signature="429:926" ph="{...}" />
+            <marker date="1553795479424" expanded="true" signature="491:673" ph="{...}" />
+            <marker date="1553795479424" expanded="true" signature="735:920" ph="{...}" />
+            <marker date="1553795479424" expanded="true" signature="982:2631" ph="{...}" />
+            <marker date="1553795479424" expanded="true" signature="1043:1646" ph="{...}" />
+            <marker date="1553795479424" expanded="true" signature="1497:1587" ph="{...}" />
+            <marker date="1553795479424" expanded="true" signature="1703:2133" ph="{...}" />
+            <marker date="1553795479424" expanded="true" signature="1736:1901" ph="{...}" />
+            <marker date="1553795479424" expanded="true" signature="1958:2123" ph="{...}" />
+            <marker date="1553795479424" expanded="true" signature="2195:2625" ph="{...}" />
+            <marker date="1553795479424" expanded="true" signature="2227:2391" ph="{...}" />
+            <marker date="1553795479424" expanded="true" signature="2449:2615" ph="{...}" />
+            <marker date="1553795479424" expanded="true" signature="2655:3313" ph="{...}" />
+            <marker date="1553795479424" expanded="true" signature="2832:3234" ph="{...}" />
+            <marker date="1553795479424" expanded="true" signature="2890:2980" ph="{...}" />
+            <marker date="1553795479424" expanded="true" signature="3080:3172" ph="{...}" />
           </folding>
         </state>
       </provider>

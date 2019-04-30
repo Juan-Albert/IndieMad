@@ -15,9 +15,21 @@
             <e p="Money.cs" t="Include" />
             <e p="RandomPositionGenerator.cs" t="Include" />
           </e>
+          <e p="ConveyorBelt" t="Include">
+            <e p="ScrollTexture.cs" t="Include" />
+          </e>
           <e p="GameManager.cs" t="Include" />
+          <e p="Inaugurate" t="Include">
+            <e p="InaugurateManager.cs" t="Include" />
+            <e p="ScissorsController.cs" t="Include" />
+          </e>
           <e p="InitGame" t="Include">
             <e p="ControllerSearcher.cs" t="Include" />
+          </e>
+          <e p="Persuade" t="Include">
+            <e p="NPCZombieController.cs" t="Include" />
+            <e p="Persuade.cs" t="Include" />
+            <e p="PersuadeManager.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
             <e p="GroundChecker.cs" t="Include" />
@@ -28,10 +40,19 @@
             <e p="SpeechManager.cs" t="Include" />
             <e p="VoteController.cs" t="Include" />
           </e>
+          <e p="Stamp" t="Include">
+            <e p="Envelope.cs" t="Include" />
+            <e p="Stamp.cs" t="Include" />
+            <e p="StampManager.cs" t="Include" />
+          </e>
           <e p="TeamChooser" t="Include">
             <e p="SpriteRenderOrderSystem.cs" t="Include" />
             <e p="TeamChooser.cs" t="Include" />
           </e>
+        </e>
+        <e p="Shader" t="Include">
+          <e p="Conveyor.shader" t="Include" />
+          <e p="ConveyorBelt.shader" t="Include" />
         </e>
       </e>
       <e p="EvadGameJam.sln" t="IncludeFlat" />
